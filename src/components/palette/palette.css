@@ -1,0 +1,45 @@
+.title{
+    text-align: center;
+    color: #f09f97;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title > h2 {
+    color: black;
+}
+.ColorImage{
+    display: flex;
+    justify-content: center;
+}
+
+.ColorImage > img{
+    margin-top: 20px;
+    width: 70%;
+}
+
+.Hero-second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.Accordeon{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.Accordeon > img {
+    width: 450px;
+    height: 600px;
+    object-fit: contain;
+    
+}
+
+.TitleHs > h1 {
+    color: #f09f97;
+}

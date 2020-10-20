@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+.NameDes {
+    left: 50%;
+    margin-top: 180px;
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    font-size: 3rem;
+    transform : translateX(-50%);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+  }
+
+  .text{
+    color: white;
+  }

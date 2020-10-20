@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+@import url(https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,500&display=swap);
+.Container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.Title > h1{
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.price{
+    font-size: 31px;
+    transform: translateX(218px) translateY(-10PX);
+    font-family: 'Bitter', serif;
+}
+
+.ColorSize{
+    transform: translateY(-50PX);
+}
+
+.buy{
+    transform: translateY(-20PX);
+}
+
+.info{
+    transform: translateY(-30PX);
+}
+ 
+.ItemCollection{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    transform: translateY(-50PX);
+}
+
+.TextDes{
+    transform: translateY(-50PX);   
+}
+
+  .ItemCollection > li:hover {
+    color: #95a5a6;
+  }
+
+.ItemCollection > li {
+    margin: 20px;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+}
+.bibi:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #f09f97;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+.bibi:hover:after {
+    width: 100%;
+    left: 0;
+  }
+
+.TextDes{
+    width: 600px;
+}
+.ColorSize{
+    display: flex;
+}
+
+.ColorSize > select {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+
+
+}
+.marre{
+    display: flex;
+    margin-left: 50px;
+}
+
+.marre > li {
+    margin: 10px;
+    list-style: none;
+}
+
+.buy > button{
+    width: 600px;
+    height: 60px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+
+.buy > p {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    color: #f09f97;
+    font-weight: 400;
+}
+button >i {
+    color: red;
+}
+
+button:hover {
+  box-shadow: inset 600px 0 0 0 #f09f97;
+  transition: .5s;
+  border: 5px solid #f09f97;
+  color: white;
+}
+
+button > i:hover{
+    color: red;
+}
+

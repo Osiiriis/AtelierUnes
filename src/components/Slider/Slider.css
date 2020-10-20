@@ -1,0 +1,36 @@
+.grid-container {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-top: 25px;
+  }
+  
+  
+  .imgContainer { 
+    display: flex;
+    flex-direction: column;
+    }
+
+    .imgContainer > img:hover{ 
+    filter: grayscale(100%);
+    transition: all 0.8s ease;
+    }
+
+    .ImgSelected{
+        width: 613px;
+        height: 613px;
+        display: flex;
+        margin-left: -30px;
+        margin-top: 25px;
+        object-fit: contain;
+    }
+
+
+    .imgContainer > img{
+        width: 160px;
+        height: 160px;
+        margin: 5px;
+        object-fit: contain;
+        cursor: pointer;
+    }
